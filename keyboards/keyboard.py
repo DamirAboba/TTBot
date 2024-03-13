@@ -13,3 +13,8 @@ audio_or_video_button = InlineKeyboardMarkup(inline_keyboard=[
     [InlineKeyboardButton(text="Скачать аудио", callback_data="get_audio")],
     [InlineKeyboardButton(text="Скачать Видео", callback_data="get_video")]
 ])
+
+platform_choise = InlineKeyboardMarkup(inline_keyboard=[
+    [InlineKeyboardButton(text="Загрузить медиа с tiktok", callback_data="tiktok")],
+    [InlineKeyboardButton(text="Загрузить медиа с ютуб", callback_data="youtube")]
+])
